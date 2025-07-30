@@ -1,6 +1,6 @@
 import React from 'react'
 import vsp from "../assets/vizagsteel.jpg"
-import bpl from "../assets/logo.png"
+
 
 const CompanyLogo = () => {
     const logos = [vsp]

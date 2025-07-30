@@ -20,7 +20,7 @@ const Navbar = ({ onOpenModal }) => {
         {/* Logo */}
         <div className="h-30 w-auto">
           <img
-            src="src/assets/logo.png"
+            src="../assets/logo.png"
             alt="Logo"
             className="w-40 object-contain mt-[30px] hover:opacity-75 transition-opacity"
           />

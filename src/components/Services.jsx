@@ -2,19 +2,19 @@ import { motion } from 'framer-motion';
 
 const services = [
   {
-    image: 'src/assets/Services/Services1.png',
+    image: '../assets/Services/Services1.png',
     title: 'Customised Drone Design & Development',
     description:
       'We specialize in the design and development of custom drone systems tailored to meet unique requirements in industrial and academic environments. Whether it’s high-endurance drones for surveillance, payload-carrying quadcopters, or research-specific platforms, our team crafts solutions from concept to prototype, ensuring optimal performance, integration of sensors, and modular adaptability.',
   },
   {
-    image: 'src/assets/Services/Services2.png',
+    image: '../assets/Services/Services2.png',
     title: 'Integration & Deployment Support',
     description:
       'Our services go beyond just building drones—we ensure that they are fully integrated into your existing workflows. From on-site calibration, software-hardware interfacing, to training your staff and providing detailed operational manuals, we guarantee a smooth transition from setup to operation. We also offer post-deployment monitoring and technical support for continuous uptime.',
   },
   {
-    image: 'src/assets/Services/Services3.png',
+    image: '../assets/Services/Services3.png',
     title: 'Aerial Survey & Geographical Mapping',
     description:
       'We provide advanced aerial survey services using high-resolution cameras and LiDAR-equipped drones to capture precise topographical data. Our mapping solutions are ideal for agriculture, construction planning, infrastructure development, and environmental studies. Deliverables include orthomosaic maps, 3D terrain models, and actionable insights, all processed using state-of-the-art photogrammetry tools.',
@@ -24,49 +24,49 @@ const services = [
 const industries = [
   {
     title: 'Mining',
-    image: 'src/assets/Services/SerInd1.jpg',
+    image: '../assets/Services/SerInd1.jpg',
     description:
       'Utilize drones for accurate stockpile verification, reducing manual errors and improving asset tracking in mines.',
   },
   {
     title: 'Construction',
-    image: 'src/assets/Services/SerInd2.jpg',
+    image: '../assets/Services/SerInd2.jpg',
     description:
       'Monitor site progress, perform aerial surveys, and use segmentation to track material flow and development phases.',
   },
   {
     title: 'Cement Plants',
-    image: 'src/assets/Services/SerInd3.jpg',
+    image: '../assets/Services/SerInd3.jpg',
     description:
       'Track raw material stockpiles, inspect silos and large structures, and optimize logistics with real-time drone insights.',
   },
   {
     title: 'Ports & Logistics',
-    image: 'src/assets/Services/SerInd4.jpg',
+    image: '../assets/Services/SerInd4.jpg',
     description:
       'Leverage aerial mapping for yard planning, cargo monitoring, and enhancing safety in port operations and freight yards.',
   },
   {
     title: 'Railways',
-    image: 'src/assets/Services/SerInd5.jpg',
+    image: '../assets/Services/SerInd5.jpg',
     description:
       'Survey track infrastructure, monitor construction progress, and ensure safe clearances in hard-to-access rail zones.',
   },
   {
     title: 'Heavy Industries',
-    image: 'src/assets/Services/SerInd6.jpg',
+    image: '../assets/Services/SerInd6.jpg',
     description:
       'Support steel plants and heavy industries with drone-based inspections, inventory audits, and maintenance surveillance in large-scale manufacturing sites.',
   },
   {
     title: 'Inventory Yards',
-    image: 'src/assets/Services/SerInd7.jpg',
+    image: '../assets/Services/SerInd7.jpg',
     description:
       'Perform rapid yard audits, track inventory levels from above, and optimize warehouse logistics with minimal human intervention.',
   },
   {
     title: 'Highway Infrastructures',
-    image: 'src/assets/Services/SerInd8.jpg',
+    image: '../assets/Services/SerInd8.jpg',
     description:
       'Conduct route surveys, track roadwork progress, and inspect bridges or elevated structures using high-resolution drone footage.',
   },
