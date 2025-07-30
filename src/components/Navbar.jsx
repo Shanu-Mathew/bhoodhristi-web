@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Navbar = ({ onOpenModal }) => {
   const navLinks = [
@@ -16,22 +17,18 @@ const Navbar = ({ onOpenModal }) => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm">
       <div className="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 md:h-20 h-16">
-        
-        {/* Logo */}
         <div className="h-30 w-auto">
           <img
-            src="../assets/logo.png"
+            src={logo}
             alt="Logo"
             className="w-40 object-contain mt-[30px] hover:opacity-75 transition-opacity"
           />
         </div>
 
-        {/* Mobile Menu Button */}
         <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden p-2">
           {isMenuOpen ? <HiX className="w-6 h-6" /> : <HiMenu className="w-6 h-6" />}
         </button>
 
-        {/* Desktop Nav Items */}
         <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link, index) => (
             <Link
@@ -48,7 +45,6 @@ const Navbar = ({ onOpenModal }) => {
           ))}
         </div>
 
-        {/* Get in Touch Button */}
         <button
           onClick={onOpenModal}
           className="hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100"
@@ -57,7 +53,6 @@ const Navbar = ({ onOpenModal }) => {
         </button>
       </div>
 
-      {/* Mobile Menu Items */}
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 py-4">
           <div className="container mx-auto px-4 space-y-3">
