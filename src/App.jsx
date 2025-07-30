@@ -12,7 +12,7 @@ import Banner from './components/Banner';
 import Brochure from './components/Brochure';
 import Team from './components/Team';
 import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './components/ScrolltoTop';
 import GetInTouch from './components/GetinTouch'
 
 // ✅ Page Transition Wrapper
